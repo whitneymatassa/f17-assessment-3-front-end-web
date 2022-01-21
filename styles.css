@@ -1,0 +1,71 @@
+body {
+  background: #ddd;
+  margin: 3rem;
+  padding: 3rem;
+  max-width: 70vw;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+  display: center;
+
+}
+
+nav {
+	border-bottom: 2px solid rgb(39, 91, 202);
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline-flex;
+	justify-content: space-around;
+	color: purple;
+	font-style: bold;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+h1, h2, h3 {
+	border-bottom: 2px solid rgb(39, 91, 202);
+	color: rgb(204, 19, 112)
+}
+
+h1 {
+	padding-bottom: 15px;
+	font-size: 50px;
+}
+
+a {
+	color: rgb(17, 3, 17);
+}
+
+a:visited {
+	color: rgb(86, 13, 109);
+}
+
+
+input {
+	display: block;
+	margin: 10px;
+}
+
+img {
+	max-width: 300px;
+	border-width: 30px;
+	border-color: black;
+	display: center;
+
+}
+
+.buttons {
+	background-color: yellow;
+	color: black;
+	padding: 20px;
+	margin: 5px;
+}
+
+.checkbox {
+	display: inline-flex;
+}
